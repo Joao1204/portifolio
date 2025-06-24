@@ -1,15 +1,17 @@
 import './App.css';
+import MainNavbar from './components/mainNavbar/MainNavbar';
+import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <a>hero.ninja</a>
+      <header>
+        <MainNavbar/>
       </header>
-      <main className="App-main">
-       
+      <main>
+       <Outlet/>
       </main>
-      <footer className="App-footer">
+      <footer>
        
       </footer>
     </div>
