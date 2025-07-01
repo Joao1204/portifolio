@@ -6,6 +6,7 @@ import { MdFiberNew } from 'react-icons/md';
 import { MdNotificationImportant } from 'react-icons/md';
 
 import coyoteBeatz from '../../resources/audios/Coyote Beatz - Solto Instrumental.mp3';
+import mcKevin from '../../resources/audios/MC Kevin - Cavalo de Troia.mp3';
 
 import { IoPlayCircle } from 'react-icons/io5';
 import { IoPlaySkipBackCircle } from 'react-icons/io5';
@@ -132,7 +133,7 @@ export default function MainNavbar() {
 
     // Harcoded, porém esta em testes ainda, pretendo retirar TODA a lógica deste arquivo.
     const [listOfMusics, setListOfMusics] = useState([
-        { title: "Coyote Beatz", src: `${coyoteBeatz}`, totalDurationInSeconds: 222.029206 },
+        { title: "Mc Kevin - Cavalo de Troia", src: `${mcKevin}`, totalDurationInSeconds: 191.285986 },
         { title: "Coyote Beatz", src: `${coyoteBeatz}`, totalDurationInSeconds: 222.029206 },
     ]);
 
@@ -198,20 +199,20 @@ export default function MainNavbar() {
         const musicRenderer = (indexOfCurrentMusic) => {
             const musicSelected = listOfMusics[Number(indexOfCurrentMusic)];
         
-            player.pause();
-            player.currentTime = 0;
-        
-            player.src = musicSelected.src;
-            player.load();
-        
-            player.addEventListener("loadeddata", () => {
-                document.title = musicSelected.title;
-            }, { once: true });
-        
-            player.addEventListener("canplaythrough", () => {
+    player.pause();
+    player.currentTime = 0;
+
+    player.src = musicSelected.src;
+    player.load();
+
+    player.addEventListener("loadeddata", () => {
+        document.title = musicSelected.title;
+    }, { once: true });
+
+    player.addEventListener("canplaythrough", () => {
                 player.play().catch(err => console.error("Erro ao tocar:", err));
-            }, { once: true });
-        };
+    }, { once: true });
+};
 
         // Ajusta os icones visuais de acordo com o estado do Player, ou seja, 
         // - Se a musica estiver rolando o icone de "pause" aparece, 
@@ -286,7 +287,7 @@ export default function MainNavbar() {
          });
 
         player.addEventListener("timeupdate", () => { 
-            // console.log('player.duration :>>', player.duration);
+            //console.log('player.duration :>>', player.duration);
             if ((player.currentTime / player.duration) !== NaN && (player.currentTime / player.duration) > 0) {
                 playerProgressBarsElements[0].value = (player.currentTime / player.duration);
                 playerProgressBarsElements[1].value = (player.currentTime / player.duration);
