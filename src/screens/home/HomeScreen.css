@@ -1,3 +1,15 @@
+.img-fundo--body {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  opacity: 0.06; /* controla a transparência da imagem */
+  z-index: -1;   /* mantém atrás de todo o conteúdo */
+  pointer-events: none; /* impede que a imagem atrapalhe cliques */
+}
+
 .main-header--container {
   width: 100vw;
   display: flex;
@@ -34,7 +46,9 @@
   flex-grow: 1;
   height: 100%;
   text-align: end;
-  margin-top: 10vh;
+  margin-top: 5%;
+  margin-bottom: 0.8%;
+  margin-right: 1.5%;
   width: 0vw;
 }
 

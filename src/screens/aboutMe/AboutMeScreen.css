@@ -1,3 +1,15 @@
+.img-fundo--body---aboutMe {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  opacity: 0.3; /* controla a transparência da imagem */
+  z-index: -1;   /* mantém atrás de todo o conteúdo */
+  pointer-events: none; /* impede que a imagem atrapalhe cliques */
+}
+
 #main-sobre--container {
   width: 100%;
 }
@@ -10,7 +22,7 @@
 }
 
 #main-sobre--container > div > div {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0 1rem;
   margin-bottom: 1rem;
@@ -21,11 +33,16 @@
   font-family: var(--main-fontFamily);
   color: var(--main-textColor);
   text-shadow: 1px 1px 2px black;
-  background-color: rgb(32, 10, 28);
+  background-color: rgb(43, 43, 43);
   text-align: justify;
   padding: .5rem;
-  box-shadow: 2px 2px 3px black;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  border-left: 2px solid rgb(255, 255, 255);
+  border-right: 2px solid rgb(255, 255, 255);
+  box-shadow: 0 15px 40px rgb(255, 255, 255);
   line-height: 1.3rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 #main-sobre--container > div p span{
@@ -47,12 +64,15 @@
   flex-direction: row;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+  border-top: 2px solid rgb(255, 255, 255);
+  border-left: 2px solid rgb(255, 255, 255);
+  border-right: 2px solid rgb(255, 255, 255);
   background-color: #262626;
   padding: .5rem;
   color: white;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 2px 2px 3px black;
+  box-shadow: 0 0 40px rgb(255, 255, 255);
 }
 
 .main-sobre--shellHead i > svg{
@@ -91,7 +111,7 @@
 
 
 .main-sobre--shellDir, .main-sobre--shellUser  {
-  color: #11e8ff;
+  color: rgb(255, 94, 0);
   font-family: var(--main-fontFamily-secondTitle);
   font-weight: normal;
 }
