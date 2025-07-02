@@ -7,6 +7,7 @@ import App from './App';
 
 import HomeScreen from './screens/home/HomeScreen';
 import AboutMeScreen from './screens/aboutMe/AboutMeScreen';
+import SkillsScreen from './screens/skills/SkillsScreen';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +17,8 @@ root.render(
           <Route element={<App />} >
             <Route path="/" element={<HomeScreen />} exact />
             <Route path="aboutMe" element={<AboutMeScreen />} />
-          </Route>
+            <Route path="skills" element={<SkillsScreen />} />
+        </Route>
       </Routes>
       </HashRouter>
   </React.StrictMode>
