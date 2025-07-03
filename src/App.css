@@ -11,17 +11,34 @@
 
 .main-title {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: lighter;
   font-family: 'Press Start 2P', cursive;
-  text-shadow: 2px 2px 2px #000;
   margin: 0 auto 2rem auto;
-  background-color: rgb(255, 94, 0);
-  border-radius: 5px;
-  padding: .5rem 1rem;
-  border: 3px ridge #fff;
+
+  /* Fundo Gradiante visível  */
+  background: linear-gradient(to right, 
+  rgb(255, 0, 157), 
+  rgb(162, 0, 255),
+  rgb(68, 0, 255),
+  rgb(162, 0, 255), 
+  rgb(255, 0, 157));
+
+  /* Texto branco  */
+  color: white;
+
+  /* Remover configurações que atrapalham */
+  -webkit-background-clip: unset;
+  background-clip: unset;
+  -webkit-text-fill-color: unset;
+
+  /* Leve sombra para melhorar a leitura */
+  text-shadow: 2px 2px 2px #000000;
+
+  border-radius: 30px;
+  padding: 1rem 1rem;
+  border: 7px ridge #fff;
   width: max-content;
-  color: #fff;
   max-width: 100%;
 }
 

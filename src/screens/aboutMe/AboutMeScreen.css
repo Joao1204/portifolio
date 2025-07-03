@@ -5,7 +5,7 @@
   width: 100vw;
   height: 100vh;
   object-fit: cover;
-  opacity: 0.3; /* controla a transparência da imagem */
+  opacity: 0.2; /* controla a transparência da imagem */
   z-index: -1;   /* mantém atrás de todo o conteúdo */
   pointer-events: none; /* impede que a imagem atrapalhe cliques */
 }
@@ -29,10 +29,10 @@
 }
 
 #main-sobre--container > div p{
-  font-size: 1rem;
+  font-size: 1.02rem;
   font-family: var(--main-fontFamily);
   color: var(--main-textColor);
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 0px 0px 5px black;
   background-color: rgb(43, 43, 43);
   text-align: justify;
   padding: .5rem;
@@ -46,7 +46,8 @@
 }
 
 #main-sobre--container > div p span{
-  font-size: .9rem;
+  font-size: 1rem;
+  font-family: var(--main-fontFamily-secondTitle);
 }
 
 /* #main-sobre--container div ul {
@@ -100,7 +101,7 @@
 .main-sobre--shellHead > span > h3{
   max-width: fit-content;
   font-weight: normal;
-  font-size: .8rem;
+  font-size: 1rem;
   font-family: var(--main-fontFamily-secondTitle);
 }
 
@@ -111,7 +112,7 @@
 
 
 .main-sobre--shellDir, .main-sobre--shellUser  {
-  color: rgb(255, 94, 0);
+  color: rgb(0, 125, 163);
   font-family: var(--main-fontFamily-secondTitle);
   font-weight: normal;
 }

@@ -7,7 +7,7 @@ import { AiOutlineClose } from 'react-icons/ai';
 
 import './AboutMeScreen.css';
 
-import imageFundoAboutMe from '../../resources/images/aboutMe/img-fundo-body.jpg';
+import imageFundoAboutMe from '../../resources/images/aboutMe/imagemIA.jpg';
 
 export default function AboutMeScreen() {
 

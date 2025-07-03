@@ -4,7 +4,7 @@ footer {
   background: var(--main-bgColorLightGrey);
   border-radius: 5px;
   font-size: .9rem;
-  color: #000;
+  color: #000000;
   font-family: var(--main-fontfamily-Press2PLight);
   font-weight: bold;
   text-align: center;
@@ -14,6 +14,17 @@ footer {
   align-items: center;
   justify-content: center;
   padding: .5rem;
+}
+
+.footer-description > p {
+  color: white;
+  font-size: 1rem;
+  font-family: var(--main-fontfamily-Press2PLight);
+  text-shadow: 2px 2px 4px black;
+}
+
+.footer-icon-email--container > h3 > a {
+  color: rgb(0, 174, 255);
 }
 
 footer > div {
@@ -32,8 +43,10 @@ footer span {
 }
 
 footer h3 {
-  font-size: .7rem;
-  font-family: var(--main-fontFamily-secondTitle);
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px black;
 }
 
 .footer-icons {
@@ -49,14 +62,14 @@ footer h3 {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  border-bottom: 3px double #000;
+  border-bottom: 3px ridge #ffffff;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   padding: 0 4px;
 }
 
 .footer-icons--click svg {
-  box-shadow: 3px 3px 3px black, -1px -1px 3px black;
+  box-shadow: 4px 4px 3px rgb(255, 255, 255), -1px -1px 15px rgb(255, 255, 255);
   cursor: pointer;
   transition: all ease-in-out .3s;
 }

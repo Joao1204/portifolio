@@ -4,7 +4,7 @@ import { BsFillFolderSymlinkFill } from 'react-icons/bs';
 
 import './SkillsScreen.css';
 
-import imageFundoSkills from '../../resources/images/skills/img-fundo-body.jpg';
+import imageFundoSkills from '../../resources/images/skills/img-fundo.png';
 
 //CONTAINER 1
 import conversation_logo_icon from '../../resources/images/skills/conversation.png';

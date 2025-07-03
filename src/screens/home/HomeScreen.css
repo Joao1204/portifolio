@@ -5,7 +5,7 @@
   width: 100vw;
   height: 100vh;
   object-fit: cover;
-  opacity: 0.06; /* controla a transparência da imagem */
+  opacity: 0.09; /* controla a transparência da imagem */
   z-index: -1;   /* mantém atrás de todo o conteúdo */
   pointer-events: none; /* impede que a imagem atrapalhe cliques */
 }
@@ -27,28 +27,41 @@
 }
 
 .main-header--left > h1 {
-  color: white;
-  font-size: 2rem;
-  font-weight: lighter;
+  color: transparent;
+  font-size: 2.2rem;
+  font-weight: bold;
   font-family: 'Press Start 2P', cursive;
   text-align: center;
-  text-shadow: 0px 0px 10px #f00;
+  background: linear-gradient(to right, 
+  rgb(255, 0, 157), 
+  rgb(162, 0, 255), 
+  rgb(68, 0, 255),
+  rgb(162, 0, 255), 
+  rgb(255, 0, 157));
+  -webkit-background-clip: text;
 }
 
 .main-header--left > h1.--home-especializando {
-  font-size: 1.3rem;
-  color: #f00;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: transparent;
   text-shadow: none;
   min-width: max-content;
+  background: linear-gradient(to right, 
+  rgb(255, 0, 157), 
+  rgb(162, 0, 255), 
+  rgb(162, 0, 255), 
+  rgb(255, 0, 157));
+  -webkit-background-clip: text;
 }
 
 .main-header--right {
   flex-grow: 1;
   height: 100%;
   text-align: end;
-  margin-top: 5%;
-  margin-bottom: 0.8%;
-  margin-right: 1.5%;
+  margin-top: 9%;
+  margin-bottom: 5%;
+  margin-right: 4%;
   width: 0vw;
 }
 
@@ -84,15 +97,16 @@ img.--perfil-InMobile {
 }
 
 .moldura-dois {
-border:8px inset #5f6632;
-padding:15px;
-background: #b1b1c3;
+border: 12px inset rgb(0, 0, 0);
+padding: 15px;
+background: rgb(61, 61, 61);
 }
 
 .moldura-um {
-border:20px inset #5d738b;
-padding:25px;
-background: transparent url('../../resources/images/home/moldura_azul_granulado_bg-um.gif');
+border: 20px ridge rgb(61, 61, 61);
+padding: 25px;
+
+background: transparent url('../../resources/images/home/moldura_cinza.jpg');
 }
 
 @media (max-width: 810px)
