@@ -11,7 +11,7 @@
 
 .main-title {
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.0rem;
   font-weight: lighter;
   font-family: 'Press Start 2P', cursive;
   margin: 0 auto 2rem auto;
@@ -37,7 +37,7 @@
 
   border-radius: 30px;
   padding: 1rem 1rem;
-  border: 7px ridge #fff;
+  border: 4px ridge #fff;
   width: max-content;
   max-width: 100%;
 }

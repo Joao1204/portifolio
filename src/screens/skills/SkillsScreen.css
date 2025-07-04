@@ -26,7 +26,7 @@
   width: 100vw;
   height: 100vh;
   object-fit: cover;
-  opacity: 0.15; /* controla a transparência da imagem */
+  opacity: 0.10; /* controla a transparência da imagem */
   z-index: -1;   /* mantém atrás de todo o conteúdo */
   pointer-events: none; /* impede que a imagem atrapalhe cliques */
 }
@@ -54,7 +54,7 @@
   background-color: white;
   border-radius: 1rem;
   padding: .2rem;
-  border: 3px solid rgb(255, 0, 157);
+  border: 1px solid rgb(255, 0, 157);
   box-shadow: 0 0 10px rgb(255, 0, 157);
 }
 

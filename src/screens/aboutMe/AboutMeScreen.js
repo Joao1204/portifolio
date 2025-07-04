@@ -19,7 +19,7 @@ export default function AboutMeScreen() {
         <div>
             <h1 className="main-title">&lsaquo;Sobre Mim&rsaquo;</h1>
             <div>
-                <div>
+                <div className='main-sobre--shellContainer'>
                     <div className="main-sobre--shellHead">
                         <i><TbCodePlus /></i>
                         <span><h3>root@mascarado:/home/joaokirche/aboutMe</h3></span>

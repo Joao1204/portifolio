@@ -19,7 +19,7 @@ header nav a {
   font-weight: normal;
   font-family: var(--main-fontFamily-secondTitle);
   border-radius: 30px;
-  border: 4px ridge #ffffff;
+  border: 2px ridge #ffffff;
   padding: .5rem;
   box-shadow: -.2rem .2rem .2rem black;
   background: rgb(0, 0, 0);
@@ -44,7 +44,7 @@ header nav a:hover {
   rgb(68, 0, 255),
   rgb(162, 0, 255), 
   rgb(255, 0, 157));
-  border: 4px ridge #fffdfd;
+  border: 2px ridge #fffdfd;
   color: black;
 }
 

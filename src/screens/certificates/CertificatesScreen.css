@@ -1,0 +1,183 @@
+/* Area commom */
+
+.projects-title--container.-certificateTitleContainer {
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	padding: 0;
+}
+
+#main-certificate--container hr {
+	margin: 1rem;
+}
+
+/*  ÀREA DA BOLSA ENSINO */
+
+.certificate-single.-bolsaEnsinoCertficate > div {
+	max-width: 80%;
+	margin: 0 auto;
+    --tw-bg-opacity: .5;
+    background-color: rgba(52,53,65,var(--tw-bg-opacity));
+	border-radius: 10px;
+    border-left: 2px ridge lightgrey;
+    border-right: 2px ridge lightgrey;
+
+}
+
+.certificate-single.-bolsaEnsinoCertficate img {
+	background-color: white;
+	width: 100%;
+	position: relative;
+	border: 4px ridge #000;
+}
+
+.projects-subdescription--container.-bolsaEnsinoCertficate {
+	margin: 0;
+	border: 4px ridge #000;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.bolsaEnsinoImageWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-height: 60vh;
+	overflow: auto;
+}
+
+.projects-title--container.-certificateTitleContainer > p {
+	font-size: .7rem;
+	font-weight: 600;
+	margin-top: .3rem;
+}
+
+.-maxHeigthNone {
+	max-height: none;
+}
+
+Article.-certificateLastChildArticle{
+	margin-bottom: 1rem;
+}
+
+.projects-subtitle.-certificateSubtitle {
+	padding: .5rem;
+}
+
+span.certificates-autenticCode--span {
+	color: #fff;
+	font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+    font-size: .9rem;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: Söhne Mono,Monaco,Andale Mono,Ubuntu Mono,monospace !important;
+	/* font-family: var(--main-fontFamily); */
+}
+
+h1.main-title.-complementaryActivities {
+	font-size: 1rem;
+}
+
+div.certificates-autenticCode--container {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 3px double #000;
+	margin: 4px 0 1px 0;
+	margin-left: 4px;
+	max-width: max-content;
+	padding: 1px 3px;
+	border-radius: 5px;
+	background-color: #e82323;
+	line-height: 1.3rem;
+}
+
+hr.certificates-autenticCode--spanSeparator {
+	margin: 0 !important;
+	width: 100%;
+	border: 1px double #000;
+	height: 3px;
+}
+
+span.certificates-autenticCode--spanBorderTopRadius {
+	padding: 0px 27%;
+	width: max-content;
+	border-top: 3px double black;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+span.certificates-autenticCode--spanBorderTopRadius.-diplomaTecInformatica{
+	padding: 0px 18%;
+}
+
+span.certificates-autenticCode--spanBorderTopRadius.-curoEmVideo {
+	padding: 0px 23%;
+}
+
+hr.certificates-autenticCode--spanSeparator.-widthSpanSeparator {
+	width: 102%;
+}
+
+.projects-title.-certificate--title {
+	margin-bottom: 3px;
+} 
+
+.projects-title--container > span.-certificate--span{
+	font-size: .8rem;
+	background-color: var(--main-bgColorLightGrey);
+	padding: 0 1px;
+	text-align: center;
+	margin-bottom: 3px;
+	color: #000;
+	font-family: var(--main-fontFamily-secondTitle) !important;
+	text-shadow: 1px 1px 2px #05cfcf;
+	
+}
+
+
+@media (max-width: 810px)
+{
+	.certificate-single.-bolsaEnsinoCertficate > div {
+		max-width: none;
+	}
+
+	h1.main-title.-complementaryActivities {
+		font-size: .8rem;
+		line-height: 1rem;
+	}
+
+	.projects-title--container > span {
+		font-size: .7rem;
+	}
+}
+
+@media (max-width: 425px)
+{
+	.bolsaEnsinoImageWrapper {
+		max-height: 70vh;
+	}
+
+	.projects-subtitle.-certificateSubtitle.-minimalFont {
+		font-size: .6rem;
+	}
+
+	.projects-title--container > span.-certificate--span{
+		font-size: .64rem;
+	}
+
+	span.certificates-autenticCode--span {
+		font-size: .8rem;
+	}
+
+	h1.main-title.-complementaryActivities {
+		font-size: .6rem;
+		line-height: .8rem;
+	}
+	
+}

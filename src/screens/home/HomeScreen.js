@@ -1,7 +1,7 @@
 import React from 'react';
 import joaoKirche from '../../resources/images/home/joaoKirche.jpg';
 import joaoKircheMobile from '../../resources/images/home/joaoKircheMobile.jpg';
-import imageFundoBody from '../../resources/images/home/Design sem nome (1).png';
+import imageFundoBody from '../../resources/images/home/img-fundo-body.jpg';
 
 import './HomeScreen.css';
 
