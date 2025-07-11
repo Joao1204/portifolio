@@ -1,6 +1,5 @@
 header nav {
   padding: .5rem;
-  position: fixed;
   z-index: 2;
   width: 100%;
   display: flex;
@@ -12,9 +11,11 @@ header nav {
   gap: .8rem;
   background-color: var(--main-bgColorLightGrey);
   border: 4px double black;
+  position: fixed;
+  overflow: hidden;
 }
 
-header nav a {
+/* header nav a {
   font-size: .83rem;
   font-weight: normal;
   font-family: var(--main-fontFamily-secondTitle);
@@ -28,13 +29,9 @@ header nav a {
   text-decoration: none;
   text-align: center;
   text-shadow: 0px 0px 0px #000000;
-}
+} */
 
-header nav a:visited {
-  color: #ffffff;
-}
-
-header nav a:hover {
+/* header nav a:hover {
   box-shadow: -10px 10px 20px #000;
   text-shadow: none;
   transform: scale(1.01);
@@ -46,11 +43,78 @@ header nav a:hover {
   rgb(255, 0, 157));
   border: 2px ridge #fffdfd;
   color: black;
+} */
+
+/* header nav a:hover svg {
+  color: #000;
+} */
+
+header nav a {
+  position: relative;
+  overflow: hidden;
+  padding: .5rem;
+  font-size: .83rem;
+  font-weight: normal;
+  color: white;
+  background: transparent;
+  border: 2px ridge #00bfff;
+  border-radius: 30px;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 0;
+  text-transform: uppercase; 
+  text-align: center;
+  font-family: var(--main-fontFamily-secondTitle);
 }
 
-header nav a:hover svg {
-  color: #000;
+header nav a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250%;
+  height: 100%;
+  background: rgb(0, 191, 255);
+  animation: wave 10s linear infinite;
+  animation-delay: var(--delay);
+  animation-timing-function: ease-in-out;
+  border-radius: 30%;
+  filter: blur(20px);
+  z-index: -1;
+  will-change: transform;
+  pointer-events: none;
 }
+
+/* header nav a::after{
+  animation-delay: 1s; 
+}  */
+
+header nav a:hover{
+  color: #00bfff;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+@keyframes wave {
+  from {
+    transform: translateX(-200%);
+  }
+  to {
+    transform: translateX(50%);
+  }
+}
+
+/* Delays diferentes */
+.delay-1::before { animation-delay: 0s; }
+.delay-2::before { animation-delay: 1s; }
+.delay-3::before { animation-delay: 2s; }
+.delay-4::before { animation-delay: 3s; }
+.delay-5::before { animation-delay: 4s; }
+.delay-6::before { animation-delay: 5s; }
+.delay-7::before { animation-delay: 6s; }
+
+/* header nav a:visited {
+  color: #ffffff;
+} */
 
 /* Mobile area */
 

@@ -391,17 +391,19 @@ export default function MainNavbar() {
 <>
     <nav id="navbar-container" ref={navRef} >
         <button id="nav-close-btn" className="nav-btn nav-close-btn" onClick={showNavbar}><FaTimes /></button>
-        <a href="/">Home</a>
-        <a className= "-minWidthMaxContent" href="/#/aboutMe" onClick={() => setNavBarEmColumn(true)}>Sobre Mim</a>
-        <a href="/#/skills" rel="Link Linguagens" onClick={() => setNavBarEmColumn(true)}>Habilidades</a>     
-        <a href="/#/projects" rel="Link Projetos" onClick={() => setNavBarEmColumn(true)}>Projetos</a>
-        <a href="/#/certificates" rel="Link Certificados" onClick={() => setNavBarEmColumn(true)}>Certificados</a>   
-        <a href="/#/curriculumVitae" rel="Link Curriculo" onClick={() => setNavBarEmColumn(true)}>Currículo</a>     
-        <a target="_blank" className="-btn-ancorToJavaBibleScreen -minWidthMaxContent" href="https://bibleofjava.wellisonbertelli.com.br/" rel="Link Biblia do Java" onClick={() => setNavBarEmColumn(true)}>Bíblia do Java <MdFiberNew className="animaIconPisca"/></a>        
+
+        
+        <a className="button delay-1" href="/">Home</a>
+        <a className="button delay-2" href="/#/aboutMe" onClick={() => setNavBarEmColumn(true)}>Sobre Mim</a>
+        <a className="button delay-3" href="/#/skills" rel="Link Linguagens" onClick={() => setNavBarEmColumn(true)}>Habilidades</a>     
+        <a className="button delay-4" href="/#/projects" rel="Link Projetos" onClick={() => setNavBarEmColumn(true)}>Projetos</a>
+        <a className="button delay-5" href="/#/certificates" rel="Link Certificados" onClick={() => setNavBarEmColumn(true)}>Certificados</a>   
+        <a className="button delay-6" href="/#/curriculumVitae" rel="Link Curriculo" onClick={() => setNavBarEmColumn(true)}>Currículo</a>     
+        <a target="_blank" className="-btn-ancorToJavaBibleScreen button delay-7" href="https://bibleofjava.wellisonbertelli.com.br/" rel="Link Biblia do Java" onClick={() => setNavBarEmColumn(true)}>Bíblia do Java <MdFiberNew className="animaIconPisca"/></a>        
         {/* <a target="_blank" href="https://bibleofjava.wellisonbertelli.com.br/" rel="Link Curriculo" onClick={() => setNavBarEmColumn(true)}>Currículo</a>   */}
 
         <audio id="audioPlayer"></audio>
-        <div className="audioPlayer--container --audioPlayer--container --navBar -minWidthMaxContent">
+        <div className="audioPlayer--container --audioPlayer--container --navBar button delay-2">
             <div className="audioPlayer--controls">
                 <i className="audioPlayer-control--skipPrevious"><IoPlaySkipBackCircle/></i>
                 <i className="audioPlayer-control--play"><IoPlayCircle/></i>

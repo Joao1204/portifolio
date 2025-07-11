@@ -53,7 +53,7 @@
   text-shadow: none;
 }
 
-.-minWidthMaxContent {
+.button delay-2 {
   min-width: max-content;
 }
 

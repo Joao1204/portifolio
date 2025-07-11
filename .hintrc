@@ -17,7 +17,9 @@
         "ignore": [
           "width: fit-content",
           "min-width: fit-content",
-          "max-width: fit-content"
+          "max-width: fit-content",
+          "mask-repeat",
+          "mask-size"
         ]
       }
     ]
