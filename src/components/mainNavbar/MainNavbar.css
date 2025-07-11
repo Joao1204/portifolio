@@ -8,9 +8,9 @@ header nav {
   justify-content: flex-start;
   align-items: center;
   opacity: 1;
-  gap: .8rem;
+  gap: .9rem;
   background-color: var(--main-bgColorLightGrey);
-  border: 4px double black;
+  /* border: 4px double black; */
   position: fixed;
   overflow: hidden;
 }
@@ -57,8 +57,8 @@ header nav a {
   font-weight: normal;
   color: white;
   background: transparent;
-  border: 2px ridge #00bfff;
-  border-radius: 30px;
+  border: 2px ridge #00bfff00;
+  border-radius: 4px;
   overflow: hidden;
   cursor: pointer;
   z-index: 0;
@@ -70,15 +70,15 @@ header nav a {
 header nav a::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 0%;
+  left: 0%;
   width: 250%;
-  height: 100%;
+  height: 200%;
   background: rgb(0, 191, 255);
   animation: wave 10s linear infinite;
   animation-delay: var(--delay);
   animation-timing-function: ease-in-out;
-  border-radius: 30%;
+  border-radius: 50%;
   filter: blur(20px);
   z-index: -1;
   will-change: transform;
@@ -90,8 +90,10 @@ header nav a::before {
 }  */
 
 header nav a:hover{
-  color: #00bfff;
+  color: white;
   background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: -3px 2px 2px #00bfff;
+  border-radius: 4px;
 }
 
 @keyframes wave {
@@ -143,11 +145,11 @@ a.-btn-ancorToJavaBibleScreen {
 a.-btn-ancorToJavaBibleScreen > svg {
   font-size: 2rem;
   background: linear-gradient(to right, 
-  rgb(255, 0, 157), 
-  rgb(162, 0, 255),
-  rgb(68, 0, 255),
-  rgb(162, 0, 255), 
-  rgb(255, 0, 157));
+  #00bfff, 
+  rgb(0, 132, 255),
+  rgb(0, 89, 255),
+  rgb(0, 132, 255), 
+  #00bfff);
   
   /* Texto branco  */
   color: rgb(255, 255, 255);
@@ -197,7 +199,7 @@ animation: animaIconPisca 1.5s linear infinite;
 @keyframes animaIconPisca--alert {
   0% { 
       transform: scale(1.8) translateX(0);
-      color: rgb(140, 0, 255);
+      color: #00bfff;
       opacity: 1;
   }
   
@@ -300,7 +302,7 @@ background-color: #000;
 .audioPlayer--controls i > svg {
   font-size: 1.9rem;
   cursor: pointer;
-  color: rgb(140, 0, 255);
+  color: #00bfff;
   background-color: black;
   border-radius: 50%;
   margin-right: 2px;
@@ -336,7 +338,7 @@ background-color: #000;
 
   #btn-hamburguer {
       background-color: var(--main-bgColorLightGrey);
-      border: 4px double black;
+      border: 4px double rgb(0, 0, 0);
       border-radius: 10px;
       top: 0;
       left: 0;
@@ -350,7 +352,7 @@ background-color: #000;
       padding-left: 0 !important;
   }
 
-  /*#btn-hamburguer::after {
+  /* #btn-hamburguer::after {
       content: '';
       background-color: white;
       border: 4px double black;
@@ -359,7 +361,7 @@ background-color: #000;
       position: absolute;
       width: 95vw;
       height: 100%;
-  }*/
+  } */
 
   .nav-btn.nav-close-btn {
       position: relative;
@@ -370,9 +372,9 @@ background-color: #000;
   }
 
   .nav-btn.nav-close-btn > svg  {
-      background-color: rgb(140, 0, 255);
+      background-color: #00bfff;
       border-radius: 50%;
-      border: 2px solid black;
+      border: 2px solid rgb(0, 0, 0);
   }
 
   header nav {

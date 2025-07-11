@@ -5,7 +5,7 @@
   width: 100vw;
   height: 100vh;
   object-fit: cover;
-  opacity: 0.09; /* controla a transparência da imagem */
+  opacity: 0.04; /* controla a transparência da imagem */
   z-index: -1;   /* mantém atrás de todo o conteúdo */
   pointer-events: none; /* impede que a imagem atrapalhe cliques */
 }
@@ -27,18 +27,42 @@
 }
 
 .main-header--left > h1 {
+  position: relative;
+  overflow: hidden;
   color: transparent;
   font-size: 2.2rem;
-  font-weight: bold;
-  font-family: 'Press Start 2P', cursive;
+  font-weight: normal;
+  z-index: 0;
   text-align: center;
-  background: linear-gradient(to right, 
+  font-family: 'Press Start 2P', cursive;
+
+  background: linear-gradient(90deg, rgb(0, 191, 255), rgba(255, 255, 255, 0.05), rgb(0, 191, 255));
+
+  background-size: 10000%;
+  background-position: 250% 0%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: scroll-background 20s linear infinite;
+  
+
+  /* background: linear-gradient(to right, 
   rgb(255, 0, 157), 
   rgb(162, 0, 255), 
   rgb(68, 0, 255),
   rgb(162, 0, 255), 
   rgb(255, 0, 157));
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; */
+}
+
+@keyframes scroll-background {
+  from {
+    background-position: 200% ;
+  }
+  to {
+    background-position: -50% ;
+  }
 }
 
 .main-header--left > h1.--home-especializando {
@@ -47,11 +71,7 @@
   color: transparent;
   text-shadow: none;
   min-width: max-content;
-  background: linear-gradient(to right, 
-  rgb(255, 0, 157), 
-  rgb(162, 0, 255), 
-  rgb(162, 0, 255), 
-  rgb(255, 0, 157));
+  background-color: rgb(0, 191, 255);
   -webkit-background-clip: text;
 }
 
@@ -85,7 +105,7 @@ img.--perfil-InMobile {
   src: url('./../../resources/fonts/Jonathan Hetegral.otf');
 }
 
-.main-header--container > .main-header--left > h1.--home-rubrica {
+.main-header--left > h2.--home-rubrica {
   font-family: 'Rubrica Upper Case Font Family';
   font-size: 3.5rem;
   line-height: 3.5rem;

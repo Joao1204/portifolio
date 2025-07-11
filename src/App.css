@@ -18,11 +18,11 @@
 
   /* Fundo Gradiante visível  */
   background: linear-gradient(to right, 
-  rgb(255, 0, 157), 
-  rgb(162, 0, 255),
-  rgb(68, 0, 255),
-  rgb(162, 0, 255), 
-  rgb(255, 0, 157));
+  #00bfff, 
+  rgb(0, 132, 255),
+  rgb(0, 89, 255),
+  rgb(0, 132, 255), 
+  #00bfff);
 
   /* Texto branco  */
   color: white;
