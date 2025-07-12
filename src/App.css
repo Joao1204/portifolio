@@ -35,7 +35,7 @@
   /* Leve sombra para melhorar a leitura */
   text-shadow: 2px 2px 2px #000000;
 
-  border-radius: 30px;
+  border-radius: 4px;
   padding: 1rem 1rem;
   border: 4px ridge #fff;
   width: max-content;

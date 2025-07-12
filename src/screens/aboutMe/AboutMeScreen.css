@@ -5,7 +5,7 @@
   width: 100vw;
   height: 100vh;
   object-fit: cover;
-  opacity: 0.2; /* controla a transparência da imagem */
+  opacity: 0.07; /* controla a transparência da imagem */
   z-index: -1;   /* mantém atrás de todo o conteúdo */
   pointer-events: none; /* impede que a imagem atrapalhe cliques */
 }

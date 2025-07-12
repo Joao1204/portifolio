@@ -1,26 +1,80 @@
 footer {
-  border: 4px double black;
   width: 100%;
   background: var(--main-bgColorLightGrey);
   border-radius: 5px;
   font-size: .9rem;
-  color: #000000;
+  color: #ffffff;
   font-family: var(--main-fontfamily-Press2PLight);
-  font-weight: bold;
-  text-align: center;
+  /* font-weight: bold;
   line-height: 1rem;
-  min-height: 30vh;
+  min-height: 30vh; */
+  padding: 1rem 2rem;
+
+  /* flex-wrap: wrap; */
+}
+
+.footer-wrapper {
+  display: inline;
+  justify-content: space-between;
+  align-items: relative;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* Colunas individuais */
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+  min-width: 200px;
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding: .5rem;
+  align-items: center;
+  text-align: center;
+}
+
+/* Ícones no canto esquerdo */
+.footer-left {
+  justify-content: flex-start;
+  position: relative;
+  top: 30px;
+}
+
+/* Texto no meio */
+.footer-center {
+  justify-content: center;
+  position: relative;
+  top: 100px; /* Move pra baixo */
+  margin-top: -100px;
+}
+
+/* E-mail no canto direito */
+.footer-right {
+  justify-content: flex-end;
+  position: relative;
+  top: 80px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .footer-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    justify-content: center;
+  }
 }
 
 .footer-description > p {
   color: white;
   font-size: 1rem;
   font-family: var(--main-fontfamily-Press2PLight);
-  text-shadow: 2px 2px 4px black;
+  text-shadow: 0px 0px 5px rgb(0, 0, 0);
 }
 
 .footer-icon-email--container > h3 > a {
@@ -69,9 +123,11 @@ footer h3 {
 }
 
 .footer-icons--click svg {
-  box-shadow: 4px 4px 3px rgb(255, 255, 255), -1px -1px 15px rgb(255, 255, 255);
+  font-size: 2.5rem;
+  border-radius: 8px;
   cursor: pointer;
   transition: all ease-in-out .3s;
+  color: white;
 }
 
 .footer-icons--click a:nth-child(1) > svg {
@@ -83,7 +139,7 @@ footer h3 {
 }
 
 .footer-icons--click svg:hover {
-  box-shadow: none;
+  box-shadow: -2px 2px 1px rgb(255, 255, 255);
   cursor: pointer;
 }
 
@@ -107,12 +163,13 @@ footer h3 {
 } */
 
 .footer-icon--email {
-  padding-top: 4px;
+  padding-top: 8px;
 }
 
 .footer-icon--email svg {
   font-size: 1rem;
   margin-right: 3px;
+  color: white;
 }
 
 .footer-icon-email--container {

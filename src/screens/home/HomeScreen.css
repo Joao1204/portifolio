@@ -36,7 +36,12 @@
   text-align: center;
   font-family: 'Press Start 2P', cursive;
 
-  background: linear-gradient(90deg, rgb(0, 191, 255), rgba(255, 255, 255, 0.05), rgb(0, 191, 255));
+  background: linear-gradient(90deg, 
+  rgb(0, 191, 255), 
+  rgba(255, 255, 255, 0.05), 
+  rgb(0, 191, 255));
+
+  text-shadow: -4px 0px 2px rgba(0, 191, 255, 0.1);
 
   background-size: 10000%;
   background-position: 250% 0%;
@@ -44,7 +49,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  animation: scroll-background 20s linear infinite;
+  animation: scroll-background 5s alternate-reverse infinite;
   
 
   /* background: linear-gradient(to right, 
@@ -69,10 +74,10 @@
   font-size: 1.5rem;
   font-weight: bold;
   color: transparent;
-  text-shadow: none;
   min-width: max-content;
   background-color: rgb(0, 191, 255);
   -webkit-background-clip: text;
+  text-shadow: -6px 0px 2px rgba(0, 191, 255, 0.1);
 }
 
 .main-header--right {
@@ -80,7 +85,7 @@
   height: 100%;
   text-align: end;
   margin-top: 9%;
-  margin-bottom: 5%;
+  margin-bottom: 6%;
   margin-right: 4%;
   width: 0vw;
 }
@@ -123,6 +128,7 @@ background: rgb(61, 61, 61);
 }
 
 .moldura-um {
+box-shadow: 0px 0px 8px 3px rgb(0, 191, 255);
 border: 20px ridge rgb(61, 61, 61);
 padding: 25px;
 
