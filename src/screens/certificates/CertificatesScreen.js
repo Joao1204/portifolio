@@ -45,20 +45,19 @@ export default function CertificatesScreen() {
             {/*------------------------Formação Acadêmica - Graduação---------------------*/}
             <h1 className="main-title -complementaryActivities">&lsaquo;Formação Acadêmica - Graduação&rsaquo;</h1>
                 
-            <article className="certificate-single -bolsaEnsinoCertficate -certificateLastChildArticle">
+            <article className="certificate-single -bolsaEnsinoCertficate -certificateLastChildArticle">    
                 <div>
                     <div className='certificates-container'>
                         <div className="projects-title--container -certificateTitleContainer">
                             <div>
-                                <h3 className="projects-title -certificate--title">Diploma ADS</h3>
-                                <a href="https://www.ev.org.br/validar-certificado" target="_blank"><i><BsFillFolderSymlinkFill /></i></a>
+                                <h3 className="projects-title -certificate--title">Tecnólogo em Análise e Desenvolvimento de Sistemas</h3><br/>
+                                {/* <a href="https://www.ev.org.br/validar-certificado" target="_blank"><i><BsFillFolderSymlinkFill /></i></a> */}
                             </div>
-                                <span className="-certificate--span">kakakakakakka</span>
+                                {/* <span className="-certificate--span">CEUNSP</span> */}
                             <div className="certificates-autenticCode--container">
-                                <span className="certificates-autenticCode--span">lalalalalalalalalalal </span>
-                                <span className="certificates-autenticCode--span">lalalalalallalalalalala</span>
+                                {/* <span className="certificates-autenticCode--span">Código de Autenticidade: </span>
+                                <span className="certificates-autenticCode--span">1149.1149.ed39c9eaeffe</span> */}
                             </div>
-                            <p>lalalalalalalallalalalaalalla</p>
                         </div>
                         <div className="bolsaEnsinoImageWrapper -maxHeigthNone">
                             <img src={diplomaADS1}></img>
@@ -83,15 +82,9 @@ export default function CertificatesScreen() {
                     <div className='certificates-container'>
                         <div className="projects-title--container -certificateTitleContainer">
                             <div>
-                                <h3 className="projects-title -certificate--title">Certificado de Conclusão Graduação ADS</h3>
-                                <a href="https://www.ev.org.br/validar-certificado" target="_blank"><i><BsFillFolderSymlinkFill /></i></a>
+                                <h3 className="projects-title -certificate--title">Certificado de Conclusão Graduação ADS</h3><br/>
+                                {/* <a href="https://www.ev.org.br/validar-certificado" target="_blank"><i><BsFillFolderSymlinkFill /></i></a> */}
                             </div>
-                            <span className="-certificate--span">kakakakakakka</span>
-                            <div className="certificates-autenticCode--container">
-                                <span className="certificates-autenticCode--span">lalalalalalalalalalal </span>
-                                <span className="certificates-autenticCode--span">lalalalalallalalalalala</span>
-                            </div>
-                            <p>lalalalalalalallalalalaalalla</p>
                         </div>
                     <div className="bolsaEnsinoImageWrapper -maxHeigthNone">
                         <img src={certificateDeclaracaoConclusaoGraduacaoADS}></img>
@@ -109,15 +102,10 @@ export default function CertificatesScreen() {
                     <div className='certificates-container'>
                     <div className="projects-title--container -certificateTitleContainer">
                         <div>
-                            <h3 className="projects-title -certificate--title">Estágio</h3>
-                            <a href="https://www.ev.org.br/validar-certificado" target="_blank"><i><BsFillFolderSymlinkFill /></i></a>
+                            <h3 className="projects-title -certificate--title">Termo Aditivo Estágio</h3><br/>
+                            {/* <a href="https://www.ev.org.br/validar-certificado" target="_blank"><i><BsFillFolderSymlinkFill /></i></a> */}
                         </div>
-                        <span className="-certificate--span">kakakakakakka</span>
-                        <div className="certificates-autenticCode--container">
-                            <span className="certificates-autenticCode--span">lalalalalalalalalalal </span>
-                            <span className="certificates-autenticCode--span">lalalalalallalalalalala</span>
-                        </div>
-                        <p>lalalalalalalallalalalaalalla</p>
+                        
                     </div>
                     <div className="bolsaEnsinoImageWrapper -maxHeigthNone">
                         <img src={estagio1}></img>
@@ -145,15 +133,10 @@ export default function CertificatesScreen() {
                     <div className='certificates-container'> 
                     <div className="projects-title--container -certificateTitleContainer">
                         <div>
-                            <h3 className="projects-title -certificate--title">Certificado de Pesquisa Científica</h3>
-                            <a href="https://www.ev.org.br/validar-certificado" target="_blank"><i><BsFillFolderSymlinkFill /></i></a>
+                            <h3 className="projects-title -certificate--title">Certificado de Pesquisa Científica</h3><br/>
+                            {/* <a href="https://www.ev.org.br/validar-certificado" target="_blank"><i><BsFillFolderSymlinkFill /></i></a> */}
                         </div>
-                        <span className="-certificate--span">kakakakakakka</span>
-                        <div className="certificates-autenticCode--container">
-                            <span className="certificates-autenticCode--span">lalalalalalalalalalal </span>
-                            <span className="certificates-autenticCode--span">lalalalalallalalalalala</span>
-                        </div>
-                        <p>lalalalalalalallalalalaalalla</p>
+                        
                     </div>
                     <div className="bolsaEnsinoImageWrapper -maxHeigthNone">
                         <img src={certificatePesCientifica4}></img>
@@ -168,15 +151,9 @@ export default function CertificatesScreen() {
                 <div className='certificates-container'> 
                     <div className="projects-title--container -certificateTitleContainer">
                         <div>
-                            <h3 className="projects-title -certificate--title">Certificado de Pesquisa Científica</h3>
-                            <a href="https://www.ev.org.br/validar-certificado" target="_blank"><i><BsFillFolderSymlinkFill /></i></a>
+                            <h3 className="projects-title -certificate--title">Certificado de Pesquisa Científica</h3><br/>
                         </div>
-                        <span className="-certificate--span">lalalalalalalalalalal</span>
-                        <div className="certificates-autenticCode--container">
-                            <span className="certificates-autenticCode--span">lalalalalalalallalalalaalalla</span>
-                            <span className="certificates-autenticCode--span">lalalalalalalalalalal</span>
-                        </div>
-                        <p>lalalalalalalallalalalaalalla</p>
+                        
                     </div>
                     <div className="bolsaEnsinoImageWrapper -maxHeigthNone">
                         <img src={certificatePesCientifica8}></img>
@@ -191,15 +168,9 @@ export default function CertificatesScreen() {
                 <div className='certificates-container'> 
                     <div className="projects-title--container -certificateTitleContainer">
                         <div>
-                            <h3 className="projects-title -certificate--title">Certificado de Recepção dos Alunos</h3>
-                            <a href="https://www.ev.org.br/validar-certificado" target="_blank"><i><BsFillFolderSymlinkFill /></i></a>
+                            <h3 className="projects-title -certificate--title">Certificado de Recepção dos Alunos</h3><br/>
                         </div>
-                        <span className="-certificate--span">lalalalalalalalalalal</span>
-                        <div className="certificates-autenticCode--container">
-                            <span className="certificates-autenticCode--span">lalalalalalalallalalalaalalla</span>
-                            <span className="certificates-autenticCode--span">lalalalalalalalalalal</span>
-                        </div>
-                        <p>lalalalalalalallalalalaalalla</p>
+                        
                     </div>
                     <div className="bolsaEnsinoImageWrapper -maxHeigthNone">
                         <img src={certificateRecepcaoAlunos}></img>
@@ -214,15 +185,9 @@ export default function CertificatesScreen() {
                 <div className='certificates-container'> 
                     <div className="projects-title--container -certificateTitleContainer">
                         <div>
-                            <h3 className="projects-title -certificate--title">Certificado de Representante 5 horas</h3>
-                            <a href="https://www.ev.org.br/validar-certificado" target="_blank"><i><BsFillFolderSymlinkFill /></i></a>
+                            <h3 className="projects-title -certificate--title">Certificado de Representante</h3><br/>
                         </div>
-                        <span className="-certificate--span">lalalalalalalalalalal</span>
-                        <div className="certificates-autenticCode--container">
-                            <span className="certificates-autenticCode--span">lalalalalalalallalalalaalalla</span>
-                            <span className="certificates-autenticCode--span">lalalalalalalalalalal</span>
-                        </div>
-                        <p>lalalalalalalallalalalaalalla</p>
+                        
                     </div>
                     <div className="bolsaEnsinoImageWrapper -maxHeigthNone">
                         <img src={certificateRepresentante5}></img>
@@ -237,15 +202,9 @@ export default function CertificatesScreen() {
                 <div className='certificates-container'> 
                     <div className="projects-title--container -certificateTitleContainer">
                         <div>
-                            <h3 className="projects-title -certificate--title">Certificado de Representante 10 horas</h3>
-                            <a href="https://www.ev.org.br/validar-certificado" target="_blank"><i><BsFillFolderSymlinkFill /></i></a>
+                            <h3 className="projects-title -certificate--title">Certificado de Representante</h3><br/>
                         </div>
-                        <span className="-certificate--span">lalalalalalalalalalal</span>
-                        <div className="certificates-autenticCode--container">
-                            <span className="certificates-autenticCode--span">lalalalalalalallalalalaalalla</span>
-                            <span className="certificates-autenticCode--span">lalalalalalalalalalal</span>
-                        </div>
-                        <p>lalalalalalalallalalalaalalla</p>
+                        
                     </div>
                     <div className="bolsaEnsinoImageWrapper -maxHeigthNone">
                         <img src={certificateRepresentante10}></img>
@@ -261,14 +220,8 @@ export default function CertificatesScreen() {
                     <div className="projects-title--container -certificateTitleContainer">
                         <div>
                             <h3 className="projects-title -certificate--title">Certificado de Representante Segundo Semestre</h3>
-                            <a href="https://www.ev.org.br/validar-certificado" target="_blank"><i><BsFillFolderSymlinkFill /></i></a>
                         </div>
-                        <span className="-certificate--span">lalalalalalalalalalal</span>
-                        <div className="certificates-autenticCode--container">
-                            <span className="certificates-autenticCode--span">lalalalalalalallalalalaalalla</span>
-                            <span className="certificates-autenticCode--span">lalalalalalalalalalal</span>
-                        </div>
-                        <p>lalalalalalalallalalalaalalla</p>
+                        
                     </div>
                     <div className="bolsaEnsinoImageWrapper -maxHeigthNone">
                         <img src={certificateRepresentanteSegundoSem}></img>
@@ -283,15 +236,9 @@ export default function CertificatesScreen() {
                 <div className='certificates-container'> 
                     <div className="projects-title--container -certificateTitleContainer">
                         <div>
-                            <h3 className="projects-title -certificate--title">Certificado de Temas Transversais</h3>
-                            <a href="https://www.ev.org.br/validar-certificado" target="_blank"><i><BsFillFolderSymlinkFill /></i></a>
+                            <h3 className="projects-title -certificate--title">Certificado de Temas Transversais</h3><br/>
                         </div>
-                        <span className="-certificate--span">lalalalalalalalalalal</span>
-                        <div className="certificates-autenticCode--container">
-                            <span className="certificates-autenticCode--span">lalalalalalalallalalalaalalla</span>
-                            <span className="certificates-autenticCode--span">lalalalalalalalalalal</span>
-                        </div>
-                        <p>lalalalalalalallalalalaalalla</p>
+                        
                     </div>
                     <div className="bolsaEnsinoImageWrapper -maxHeigthNone">
                         <img src={certificateTemasTransversais}></img>
@@ -306,15 +253,9 @@ export default function CertificatesScreen() {
                 <div className='certificates-container'> 
                     <div className="projects-title--container -certificateTitleContainer">
                         <div>
-                            <h3 className="projects-title -certificate--title">Certificado de Gramática 1</h3>
-                            <a href="https://www.ev.org.br/validar-certificado" target="_blank"><i><BsFillFolderSymlinkFill /></i></a>
+                            <h3 className="projects-title -certificate--title">Certificado de Gramática</h3><br/>
                         </div>
-                        <span className="-certificate--span">lalalalalalalalalalal</span>
-                        <div className="certificates-autenticCode--container">
-                            <span className="certificates-autenticCode--span">lalalalalalalallalalalaalalla</span>
-                            <span className="certificates-autenticCode--span">lalalalalalalalalalal</span>
-                        </div>
-                        <p>lalalalalalalallalalalaalalla</p>
+                        
                     </div>
                     <div className="bolsaEnsinoImageWrapper -maxHeigthNone">
                         <img src={certificateTipoGramatica1}></img>
@@ -329,15 +270,9 @@ export default function CertificatesScreen() {
                 <div className='certificates-container'> 
                     <div className="projects-title--container -certificateTitleContainer">
                         <div>
-                            <h3 className="projects-title -certificate--title">Certificado de Gramática</h3>
-                            <a href="https://www.ev.org.br/validar-certificado" target="_blank"><i><BsFillFolderSymlinkFill /></i></a>
+                            <h3 className="projects-title -certificate--title">Certificado de Gramática</h3><br/>
                         </div>
-                        <span className="-certificate--span">lalalalalalalalalalal</span>
-                        <div className="certificates-autenticCode--container">
-                            <span className="certificates-autenticCode--span">lalalalalalalallalalalaalalla</span>
-                            <span className="certificates-autenticCode--span">lalalalalalalalalalal</span>
-                        </div>
-                        <p>lalalalalalalallalalalaalalla</p>
+                        
                     </div>
                     <div className="bolsaEnsinoImageWrapper -maxHeigthNone">
                         <img src={certificateTipoGramatica}></img>
@@ -352,15 +287,9 @@ export default function CertificatesScreen() {
                 <div className='certificates-container'> 
                     <div className="projects-title--container -certificateTitleContainer">
                         <div>
-                            <h3 className="projects-title -certificate--title">Certificado de Trilha Conectar Discover</h3>
-                            <a href="https://www.ev.org.br/validar-certificado" target="_blank"><i><BsFillFolderSymlinkFill /></i></a>
+                            <h3 className="projects-title -certificate--title">Certificado de Trilha Conectar</h3><br/>
                         </div>
-                        <span className="-certificate--span">lalalalalalalalalalal</span>
-                        <div className="certificates-autenticCode--container">
-                            <span className="certificates-autenticCode--span">lalalalalalalallalalalaalalla</span>
-                            <span className="certificates-autenticCode--span">lalalalalalalalalalal</span>
-                        </div>
-                        <p>lalalalalalalallalalalaalalla</p>
+                        
                     </div>
                     <div className="bolsaEnsinoImageWrapper -maxHeigthNone">
                         <img src={certificateTrilhaConectar}></img>
@@ -375,15 +304,9 @@ export default function CertificatesScreen() {
                 <div className='certificates-container'> 
                     <div className="projects-title--container -certificateTitleContainer">
                         <div>
-                            <h3 className="projects-title -certificate--title">Certificado de Ambientação</h3>
-                            <a href="https://www.ev.org.br/validar-certificado" target="_blank"><i><BsFillFolderSymlinkFill /></i></a>
+                            <h3 className="projects-title -certificate--title">Certificado de Ambientação</h3><br/>
                         </div>
-                        <span className="-certificate--span">lalalalalalalalalalal</span>
-                        <div className="certificates-autenticCode--container">
-                            <span className="certificates-autenticCode--span">lalalalalalalallalalalaalalla</span>
-                            <span className="certificates-autenticCode--span">lalalalalalalalalalal</span>
-                        </div>
-                        <p>lalalalalalalallalalalaalalla</p>
+                        
                     </div>
                     <div className="bolsaEnsinoImageWrapper -maxHeigthNone">
                         <img src={certificateAmbientacao}></img>
@@ -398,15 +321,9 @@ export default function CertificatesScreen() {
                 <div className='certificates-container'> 
                     <div className="projects-title--container -certificateTitleContainer">
                         <div>
-                            <h3 className="projects-title -certificate--title">Certificado de Classes Gramaticais</h3>
-                            <a href="https://www.ev.org.br/validar-certificado" target="_blank"><i><BsFillFolderSymlinkFill /></i></a>
+                            <h3 className="projects-title -certificate--title">Certificado de Classes Gramaticais</h3><br/>
                         </div>
-                        <span className="-certificate--span">lalalalalalalalalalal</span>
-                        <div className="certificates-autenticCode--container">
-                            <span className="certificates-autenticCode--span">lalalalalalalallalalalaalalla</span>
-                            <span className="certificates-autenticCode--span">lalalalalalalalalalal</span>
-                        </div>
-                        <p>lalalalalalalallalalalaalalla</p>
+                        
                     </div>
                     <div className="bolsaEnsinoImageWrapper -maxHeigthNone">
                         <img src={certificateClassesGramaticais}></img>
@@ -421,15 +338,9 @@ export default function CertificatesScreen() {
                 <div className='certificates-container'> 
                     <div className="projects-title--container -certificateTitleContainer">
                         <div>
-                            <h3 className="projects-title -certificate--title">Certificado da Fepro</h3>
-                            <a href="https://www.ev.org.br/validar-certificado" target="_blank"><i><BsFillFolderSymlinkFill /></i></a>
+                            <h3 className="projects-title -certificate--title">Certificado da Fepro - Feira de Profissões</h3><br/>
                         </div>
-                        <span className="-certificate--span">lalalalalalalalalalal</span>
-                        <div className="certificates-autenticCode--container">
-                            <span className="certificates-autenticCode--span">lalalalalalalallalalalaalalla</span>
-                            <span className="certificates-autenticCode--span">lalalalalalalalalalal</span>
-                        </div>
-                        <p>lalalalalalalallalalalaalalla</p>
+                        
                     </div>
                     <div className="bolsaEnsinoImageWrapper -maxHeigthNone">
                         <img src={certificateFepro}></img>
@@ -444,15 +355,9 @@ export default function CertificatesScreen() {
                 <div className='certificates-container'> 
                     <div className="projects-title--container -certificateTitleContainer">
                         <div>
-                            <h3 className="projects-title -certificate--title">Certificado da Palestra Contech</h3>
-                            <a href="https://www.ev.org.br/validar-certificado" target="_blank"><i><BsFillFolderSymlinkFill /></i></a>
+                            <h3 className="projects-title -certificate--title">Certificado da Palestra Contech</h3><br/>
                         </div>
-                        <span className="-certificate--span">lalalalalalalalalalal</span>
-                        <div className="certificates-autenticCode--container">
-                            <span className="certificates-autenticCode--span">lalalalalalalallalalalaalalla</span>
-                            <span className="certificates-autenticCode--span">lalalalalalalalalalal</span>
-                        </div>
-                        <p>lalalalalalalallalalalaalalla</p>
+                        
                     </div>
                     <div className="bolsaEnsinoImageWrapper -maxHeigthNone">
                         <img src={certificatePalestraContech}></img>
@@ -467,15 +372,9 @@ export default function CertificatesScreen() {
                 <div className='certificates-container'> 
                     <div className="projects-title--container -certificateTitleContainer">
                         <div>
-                            <h3 className="projects-title -certificate--title">Certificado da Visita Técnica</h3>
-                            <a href="https://www.ev.org.br/validar-certificado" target="_blank"><i><BsFillFolderSymlinkFill /></i></a>
+                            <h3 className="projects-title -certificate--title">Visita Técnica na Coach IT</h3><br/>
                         </div>
-                        <span className="-certificate--span">lalalalalalalalalalal</span>
-                        <div className="certificates-autenticCode--container">
-                            <span className="certificates-autenticCode--span">lalalalalalalallalalalaalalla</span>
-                            <span className="certificates-autenticCode--span">lalalalalalalalalalal</span>
-                        </div>
-                        <p>lalalalalalalallalalalaalalla</p>
+                        
                     </div>
                     <div className="bolsaEnsinoImageWrapper -maxHeigthNone">
                         <img src={certificateAtestadoCoachit}></img>
@@ -483,7 +382,6 @@ export default function CertificatesScreen() {
                     </div>
                 </div>
             </article>
-            <hr/>
 
         </div>
     </section>

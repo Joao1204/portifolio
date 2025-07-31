@@ -49,13 +49,13 @@
 }
 
 .icon {
-  width: 5.0rem;
-  height: 5.0rem;
+  width: 4.0rem;
+  height: 4.0rem;
   background-color: white;
   border-radius: 1rem;
   padding: .2rem;
-  border: 1px solid rgb(0, 89, 255);
-  box-shadow: 0 0 10px rgb(0, 89, 255);
+  /* border: 1px solid rgb(0, 89, 255);
+  box-shadow: 0 0 10px rgb(255, 230, 0); */
 }
 
 .skill-tec {
@@ -80,7 +80,7 @@
 }
 
 .title-skill {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: rgb(255, 255, 255);
 }
 
@@ -142,7 +142,7 @@ progress[value]::-webkit-progress-bar {
 progress[value]::-webkit-progress-value {
   position: relative;
 
-  background-image: -webkit-linear-gradient(left, rgb(0, 125, 163) );
+  background-image: -webkit-linear-gradient(left, rgb(0, 97, 161) );
   
   background-size: 35px 20px, 100% 100%, 100% 100%;
   border-radius:2px;
@@ -332,7 +332,7 @@ p[data-value] {
 .skill-tec > .right > span.-fav {
   max-width: 100%;
   width: 130px;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.3;
   text-align: left;
@@ -340,7 +340,7 @@ p[data-value] {
 }
 
 .main-title.--linguagens_e_habilidades_tecnicas_skills {
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 .skill-tec > .right > span.-OldStudy {

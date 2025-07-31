@@ -18,6 +18,7 @@ import organizationAndPlanning_logo_icon from '../../resources/images/skills/org
 import creativityAndInnovation_logo_icon from '../../resources/images/skills/creativity-and-innovation.png';
 import proactivity_logo_icon from '../../resources/images/skills/proactivity.png';
 import target_logo_icon from '../../resources/images/skills/target.png';
+import emotionalIntelligence_logo_icon from '../../resources/images/skills/emotional-intelligence.png';
 
 //CONTAINER 2
 import javaScript_logo_icon from '../../resources/images/skills/javaScript.png';
@@ -27,6 +28,7 @@ import react_logo_icon from '../../resources/images/skills/react.png';
 import salesman_logo_icon from '../../resources/images/skills/salesman.png';
 import english_logo_icon from '../../resources/images/skills/english.png';
 import spanish_logo_icon from '../../resources/images/skills/spanish.png';
+import packageOffice_logo_icon from '../../resources/images/skills/package-office.png';
 
 export default function SkillsScreen() {
     return (
@@ -126,6 +128,14 @@ export default function SkillsScreen() {
                         <span className="-fav">Definir metas e trabalhar para alcançá-las, mantendo o foco nos resultados esperados.</span>
                     </div>
                 </article>
+                <article className="skill-tec">
+                    <img className="icon" src={emotionalIntelligence_logo_icon} alt="Logo de Emotional Intelligence"></img>
+                    <div className="right">
+                        <h3 className="title-skill">Inteligência Emocional</h3>
+                        <progress className="progress-bar --skills" max="100" value="90">90%</progress>
+                        <span className="-fav">Reconhecer e gerenciar as próprias emoções e as dos outros, construindo relações saudáveis e produtivas. </span>
+                    </div>
+                </article>
             </div>
 
             {/* Container 2*/}
@@ -193,6 +203,14 @@ export default function SkillsScreen() {
                         <h3 className="title-skill">Espanhol</h3>
                         <progress className="progress-bar --skills" max="100" value="10">10%</progress>
                         <span className="-fav">Básico ❤️</span>
+                    </div>
+                </article>
+                <article className="skill-tec">
+                    <img className="icon" src={packageOffice_logo_icon} alt="Logo de Package Office" ></img>
+                    <div className="right">
+                        <h3 className="title-skill">Pacote Office</h3>
+                        <progress className="progress-bar --skills" max="100" value="90">90%</progress>
+                        <span className="-fav">Excel, Word, PowerPoint, Outlook.</span>
                     </div>
                 </article>
             </div>

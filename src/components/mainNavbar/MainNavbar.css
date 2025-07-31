@@ -54,7 +54,7 @@ header nav a {
   position: relative;
   overflow: hidden;
   padding: .5rem;
-  font-size: .83rem;
+  font-size: .7rem;
   font-weight: normal;
   color: white;
   background: transparent;
@@ -339,7 +339,6 @@ background-color: #000;
 
   #btn-hamburguer {
       background-color: var(--main-bgColorLightGrey);
-      border: 4px double rgb(0, 0, 0);
       border-radius: 10px;
       top: 0;
       left: 0;
@@ -347,6 +346,7 @@ background-color: #000;
 
   button#btn-hamburguer > svg, button#nav-close-btn > svg {
       cursor: pointer;
+      color: white;
   }
 
   #main-projects--container, #main-certificate--container {
@@ -386,8 +386,8 @@ background-color: #000;
       gap: .5rem;
       transition: all ease 1s;
       transform: translateX(-150vw);
-      background-color: var(--main-bgColorLightGrey);
-      border: 4px double black;
+      background-color: black;
+      border: 4px ridge white;
       width: inherit !important;
       padding: 0 1rem 1rem 1rem;
       z-index: 3;

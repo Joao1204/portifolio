@@ -68,6 +68,15 @@ footer {
   .footer-right {
     justify-content: center;
   }
+
+  .footer-left, 
+  .footer-right {
+    margin-top: .7rem;
+  }
+
+  .footer-left {
+    margin-bottom: -1.0rem;
+  }
 }
 
 /* Responsivo */

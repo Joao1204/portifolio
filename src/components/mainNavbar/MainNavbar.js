@@ -399,8 +399,7 @@ export default function MainNavbar() {
         <a className="button delay-4" href="/#/projects" rel="Link Projetos" onClick={() => setNavBarEmColumn(true)}>Projetos</a>
         <a className="button delay-5" href="/#/certificates" rel="Link Certificados" onClick={() => setNavBarEmColumn(true)}>Certificados</a>   
         <a className="button delay-6" href="/#/curriculumVitae" rel="Link Curriculo" onClick={() => setNavBarEmColumn(true)}>Currículo</a>     
-        <a target="_blank" className="-btn-ancorToJavaBibleScreen button delay-7" href="https://bibleofjava.wellisonbertelli.com.br/" rel="Link Biblia do Java" onClick={() => setNavBarEmColumn(true)}>Bíblia do Java <MdFiberNew className="animaIconPisca"/></a>        
-        {/* <a target="_blank" href="https://bibleofjava.wellisonbertelli.com.br/" rel="Link Curriculo" onClick={() => setNavBarEmColumn(true)}>Currículo</a>   */}
+        <a target="_blank" className="-btn-ancorToJavaBibleScreen button delay-7" href="https://bibleofjava.wellisonbertelli.com.br/" rel="Link Biblia do Java" onClick={() => setNavBarEmColumn(true)}>Bíblia do Java <MdFiberNew className="animaIconPisca"/></a>
 
         <audio id="audioPlayer"></audio>
         <div className="audioPlayer--container --audioPlayer--container --navBar button delay-2">

@@ -11,18 +11,18 @@
 
 .main-title {
   text-align: center;
-  font-size: 1.0rem;
+  font-size: .9rem;
   font-weight: lighter;
   font-family: 'Press Start 2P', cursive;
   margin: 0 auto 2rem auto;
 
   /* Fundo Gradiante visível  */
   background: linear-gradient(to right, 
-  #00bfff, 
-  rgb(0, 132, 255),
-  rgb(0, 89, 255),
   rgb(0, 132, 255), 
-  #00bfff);
+  rgb(0, 109, 211),
+  rgb(0, 89, 255),
+  rgb(0, 109, 211), 
+  rgb(0, 132, 255));
 
   /* Texto branco  */
   color: white;

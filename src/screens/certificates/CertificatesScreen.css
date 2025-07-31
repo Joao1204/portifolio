@@ -7,7 +7,7 @@
   width: 100vw;
   height: 100vh;
   object-fit: cover;
-  opacity: 0.1; /* controla a transparência da imagem */
+  opacity: 0.05; /* controla a transparência da imagem */
   z-index: -1;   /* mantém atrás de todo o conteúdo */
   pointer-events: none; /* impede que a imagem atrapalhe cliques */
 }
@@ -19,8 +19,9 @@
 .projects-title--container.-certificateTitleContainer {
 	border-bottom-right-radius: 0;
 	border-bottom-left-radius: 0;
-	padding: 0;
-	background-color: rgb(43, 43, 43);
+	padding: 15px;
+	text-align: center;
+	background-color: rgb(27, 27, 27);
 }
 
 #main-certificate--container hr {
@@ -97,10 +98,12 @@ span.certificates-autenticCode--span {
 }
 
 h1.main-title.-complementaryActivities {
-	font-size: 1rem;
-}
+	font-size: 1.1rem;
+	margin-top: 5rem;
+	margin-bottom: 4rem;
+}	
 
-div.certificates-autenticCode--container {
+/* div.certificates-autenticCode--container {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -112,7 +115,7 @@ div.certificates-autenticCode--container {
 	border-radius: 5px;
 	background-color: #e82323;
 	line-height: 1.3rem;
-}
+} */
 
 hr.certificates-autenticCode--spanSeparator {
 	margin: 0 !important;
@@ -142,26 +145,30 @@ hr.certificates-autenticCode--spanSeparator.-widthSpanSeparator {
 }
 
 .projects-title.-certificate--title {
-	margin-bottom: 3px;
+	color: white;
+	font-size: 1.5rem;
+	text-shadow: 0px 2px 5px rgb(0, 0, 0);
+	/* font-family: 'Press Start 2P', cursive; */
 } 
 
-.projects-title--container > span.-certificate--span{
-	font-size: .8rem;
-	background-color: var(--main-bgColorLightGrey);
+/* .projects-title--container > span.-certificate--span {
+	font-size: 1.4rem;
 	padding: 0 1px;
-	text-align: center;
 	margin-bottom: 3px;
-	color: #000;
+	color: #ffffff;
 	font-family: var(--main-fontFamily-secondTitle) !important;
-	text-shadow: 1px 1px 2px #05cfcf;
-	
-}
+	text-shadow: 0px 2px 5px #000000;
+} */
 
 
 @media (max-width: 810px)
 {
-	.certificate-single.-bolsaEnsinoCertficate > div {
+	/* .certificate-single.-bolsaEnsinoCertficate > div {
 		max-width: none;
+	} */
+
+	.certificate-single {
+		margin: 1rem;
 	}
 
 	h1.main-title.-complementaryActivities {
