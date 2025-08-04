@@ -425,15 +425,19 @@ background-color: #000;
       margin-top: 2px;
   }
 
-  /* .audioPlayer--container.--btnHamburguerResponsive {
-      font-size: 0;
-  } */
+  .audioPlayer--container.--btnHamburguerResponsive {
+    display: none;
+  }
 }
 
 
-@media (max-width: 400px) 
+@media (max-width: 425px) 
 {
   header nav a {
       font-size: .7rem;
+  }
+
+  .audioPlayer--container.--btnHamburguerResponsive {
+    display: none;
   }
 }

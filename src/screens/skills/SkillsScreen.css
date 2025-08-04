@@ -351,6 +351,10 @@ p[data-value] {
 
 @media (max-width: 810px)
 {
+  .main-title.--linguagens_e_habilidades_tecnicas_skills {
+    line-height: 1.5rem;
+  }
+
   .wrapper-skills {
       max-width: fit-content;
       margin: .5rem;
@@ -388,7 +392,7 @@ p[data-value] {
 @media (max-width: 425px)
 {
   #main-skills--container .main-title {
-      margin-top: 3rem;
+      margin-top: 5rem;
   }
   .icon {
       max-width: 3.1rem;
@@ -422,5 +426,6 @@ p[data-value] {
   .wrapper-skills {
       max-width: none;
       margin: .2rem;
+      margin-top: 3rem;
   }
 }

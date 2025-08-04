@@ -123,6 +123,8 @@
 
   #main-sobre--container > div > div {
       padding: 0;
+      width: 90%;
+      margin-top: 2rem;
   }
 
   #main-sobre--container div p{
