@@ -393,12 +393,12 @@ export default function MainNavbar() {
         <button id="nav-close-btn" className="nav-btn nav-close-btn" onClick={showNavbar}><FaTimes /></button>
 
         
-        <a className="button delay-1" href="/">Home</a>
-        <a className="button delay-2" href="/#/aboutMe" onClick={() => setNavBarEmColumn(true)}>Sobre Mim</a>
-        <a className="button delay-3" href="/#/skills" rel="Link Linguagens" onClick={() => setNavBarEmColumn(true)}>Habilidades</a>     
-        <a className="button delay-4" href="/#/projects" rel="Link Projetos" onClick={() => setNavBarEmColumn(true)}>Projetos</a>
-        <a className="button delay-5" href="/#/certificates" rel="Link Certificados" onClick={() => setNavBarEmColumn(true)}>Certificados</a>   
-        <a className="button delay-6" href="/#/curriculumVitae" rel="Link Curriculo" onClick={() => setNavBarEmColumn(true)}>Currículo</a>     
+        <a className="button delay-1" href="/portifolio">Home</a>
+        <a className="button delay-2" href="/portifolio/#/aboutMe" onClick={() => setNavBarEmColumn(true)}>Sobre Mim</a>
+        <a className="button delay-3" href="/portifolio/#/skills" rel="Link Linguagens" onClick={() => setNavBarEmColumn(true)}>Habilidades</a>     
+        <a className="button delay-4" href="/portifolio/#/projects" rel="Link Projetos" onClick={() => setNavBarEmColumn(true)}>Projetos</a>
+        <a className="button delay-5" href="/portifolio/#/certificates" rel="Link Certificados" onClick={() => setNavBarEmColumn(true)}>Certificados</a>   
+        <a className="button delay-6" href="/portifolio/#/curriculumVitae" rel="Link Curriculo" onClick={() => setNavBarEmColumn(true)}>Currículo</a>     
         <a target="_blank" className="-btn-ancorToJavaBibleScreen button delay-7" href="https://bibleofjava.wellisonbertelli.com.br/" rel="Link Biblia do Java" onClick={() => setNavBarEmColumn(true)}>Bíblia do Java <MdFiberNew className="animaIconPisca"/></a>
 
         <audio id="audioPlayer"></audio>
