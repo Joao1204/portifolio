@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.cb13b5d9.css",
-    "main.js": "/portifolio/static/js/main.3683f8b7.js",
+    "main.css": "/portifolio/static/css/main.3f5cd974.css",
+    "main.js": "/portifolio/static/js/main.78a8036b.js",
     "static/media/joaoKirche.jpg": "/portifolio/static/media/joaoKirche.480b1a2135745dbc3e46.jpg",
     "static/media/joaoKircheMobile.jpg": "/portifolio/static/media/joaoKircheMobile.480b1a2135745dbc3e46.jpg",
     "static/media/Coyote Beatz - Solto Instrumental.mp3": "/portifolio/static/media/Coyote Beatz - Solto Instrumental.95dac2f3f1a036e55ee1.mp3",
@@ -16,6 +16,7 @@
     "static/media/Certificado-Representante-5-horas.png": "/portifolio/static/media/Certificado-Representante-5-horas.e4780be93e31ffa4196b.png",
     "static/media/Certificado-Recepção-dos-Alunos-6-horas-.png": "/portifolio/static/media/Certificado-Recepção-dos-Alunos-6-horas-.3e4b1708a219c411b91d.png",
     "static/media/Certificado-Ambientação-1.png": "/portifolio/static/media/Certificado-Ambientação-1.5fb268c9576780fe5438.png",
+    "static/media/Top Secret Stamp.ttf": "/portifolio/static/media/Top Secret Stamp.5354d52758997883ea98.ttf",
     "static/media/Certificado-Pesquisa-Científica-Desconexão-4-horas.png": "/portifolio/static/media/Certificado-Pesquisa-Científica-Desconexão-4-horas.0f9a9138feb45baa5385.png",
     "static/media/Certificado-Trilha-Conectar-Discover.png": "/portifolio/static/media/Certificado-Trilha-Conectar-Discover.b3887667ad44b8f13c5b.png",
     "static/media/Certificado-Representante-segundo-semestre-2024-10-horas.png": "/portifolio/static/media/Certificado-Representante-segundo-semestre-2024-10-horas.d6d7f07f073a87c6a34d.png",
@@ -35,6 +36,7 @@
     "static/media/adaptability.png": "/portifolio/static/media/adaptability.be978763cdc1e141a7ed.png",
     "static/media/react.png": "/portifolio/static/media/react.8fa476a9a466108da157.png",
     "static/media/creativity-and-innovation.png": "/portifolio/static/media/creativity-and-innovation.53182a61134e65ecd0f6.png",
+    "index.html": "/portifolio/index.html",
     "static/media/teamwork.png": "/portifolio/static/media/teamwork.c1d727799e927c370c00.png",
     "static/media/salesman.png": "/portifolio/static/media/salesman.b9c97694029a9222c790.png",
     "static/media/troubleshooting.png": "/portifolio/static/media/troubleshooting.e436e3a6a8dc13a7d914.png",
@@ -51,12 +53,11 @@
     "static/media/html5.png": "/portifolio/static/media/html5.cfb2ba4a6b1c3de295bc.png",
     "static/media/leadership.png": "/portifolio/static/media/leadership.42d8afc4a776c8f5f26b.png",
     "static/media/javaScript.png": "/portifolio/static/media/javaScript.3dfb665e058d08c99f28.png",
-    "index.html": "/portifolio/index.html",
-    "main.cb13b5d9.css.map": "/portifolio/static/css/main.cb13b5d9.css.map",
-    "main.3683f8b7.js.map": "/portifolio/static/js/main.3683f8b7.js.map"
+    "main.3f5cd974.css.map": "/portifolio/static/css/main.3f5cd974.css.map",
+    "main.78a8036b.js.map": "/portifolio/static/js/main.78a8036b.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb13b5d9.css",
-    "static/js/main.3683f8b7.js"
+    "static/css/main.3f5cd974.css",
+    "static/js/main.78a8036b.js"
   ]
 }
