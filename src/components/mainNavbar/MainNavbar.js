@@ -52,9 +52,7 @@ export default function MainNavbar() {
 
         // console.log("USE EFFECT DO NAVBAR CHAMADOOO");
 
-        if(window.screen.width >= 810 && window.location.href.substring(1).split("/")[4] == 'projects' 
-        || window.screen.width >= 810 && window.location.href.substring(1).split("/")[4] == 'certificates' 
-        || window.screen.width >= 810 && window.location.href.substring(1).split("/")[4] == 'javaBible'){
+        if(window.screen.width >= 810 && window.location.href.substring(1).split("/")[4] == 'certificates'){
             // console.log("ENTROU NO IFISÂO DOS PROJETOS< CERTIFICADOS E JAVA BIBLE");
             const navBarElement = document.getElementById("navbar-container");
             navBarElement.style.flexDirection = "column";
@@ -68,15 +66,15 @@ export default function MainNavbar() {
             navBarElement.childNodes[6].style.width = "100%";
             navBarElement.childNodes[7].style.width = "100%";
 
-            if (navBarElement.classList.contains("responsive_nav") && window.location.href.substring(1).split("/")[4] == 'projects' || window.location.href.substring(1).split("/")[4] == 'certificates' || window.location.href.substring(1).split("/")[4] == 'javaBible') {
+            if (window.location.href.substring(1).split("/")[4] == 'certificates') {
                 navBarElement.childNodes[9].style.marginLeft = "auto";
                 // console.log("ENTROU NO IF DO contains responsive e é uma das rotas projetos, certificados, ou java bible");
-            } else if (!navBarElement.classList.contains("responsive_nav") && window.location.href.substring(1).split("/")[4] == 'projects' || window.location.href.substring(1).split("/")[4] == 'certificates' || window.location.href.substring(1).split("/")[4] == 'javaBible') {
+            } else if (!navBarElement.classList.contains("responsive_nav") || window.location.href.substring(1).split("/")[4] == 'certificates') {
                 navBarElement.childNodes[9].style.marginLeft = "0px";
                 // console.log("ENTROU NO IF DO NÃO contains responsive e é uma das rotas projetos, certificados, ou java bible");
             }
     
-            if (window.location.href.substring(1).split("/")[4] == 'projects' && window.screen.width >= 810){
+            if (window.screen.width >= 810){
                 const sectionElement = document.getElementById("main-projects--container");
                 sectionElement.style.padding = "2rem 0 1rem 10%";
                 navBarElement.childNodes[9].style.margin = "auto";
@@ -86,11 +84,6 @@ export default function MainNavbar() {
                 sectionElement.style.padding = "2rem 0 1rem 10%";
                 navBarElement.childNodes[9].style.margin = "auto";
                 // console.log("ENTROU NO IF DO é a rota certificados e screen maior ou igual a 810px");
-            }else if(window.location.href.substring(1).split("/")[4] == 'javaBible' && window.screen.width >= 810){
-                const sectionElement = document.getElementById("main-javaBible--container");
-                sectionElement.style.padding = "2rem 0 1rem 10%";
-                navBarElement.childNodes[9].style.margin = "auto";
-                // console.log("ENTROU NO IF DO é a rota java bible e screen maior ou igual a 810px");
             }
             
         }else{
