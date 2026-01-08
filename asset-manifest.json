@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.3f5cd974.css",
-    "main.js": "/portifolio/static/js/main.78a8036b.js",
+    "main.css": "/portifolio/static/css/main.96cc122e.css",
+    "main.js": "/portifolio/static/js/main.e2212682.js",
     "static/media/joaoKirche.jpg": "/portifolio/static/media/joaoKirche.480b1a2135745dbc3e46.jpg",
     "static/media/joaoKircheMobile.jpg": "/portifolio/static/media/joaoKircheMobile.480b1a2135745dbc3e46.jpg",
     "static/media/Coyote Beatz - Solto Instrumental.mp3": "/portifolio/static/media/Coyote Beatz - Solto Instrumental.95dac2f3f1a036e55ee1.mp3",
@@ -53,11 +53,11 @@
     "static/media/html5.png": "/portifolio/static/media/html5.cfb2ba4a6b1c3de295bc.png",
     "static/media/leadership.png": "/portifolio/static/media/leadership.42d8afc4a776c8f5f26b.png",
     "static/media/javaScript.png": "/portifolio/static/media/javaScript.3dfb665e058d08c99f28.png",
-    "main.3f5cd974.css.map": "/portifolio/static/css/main.3f5cd974.css.map",
-    "main.78a8036b.js.map": "/portifolio/static/js/main.78a8036b.js.map"
+    "main.96cc122e.css.map": "/portifolio/static/css/main.96cc122e.css.map",
+    "main.e2212682.js.map": "/portifolio/static/js/main.e2212682.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f5cd974.css",
-    "static/js/main.78a8036b.js"
+    "static/css/main.96cc122e.css",
+    "static/js/main.e2212682.js"
   ]
 }
