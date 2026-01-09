@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.96cc122e.css",
+    "main.css": "/portifolio/static/css/main.44c85644.css",
     "main.js": "/portifolio/static/js/main.e2212682.js",
     "static/media/joaoKirche.jpg": "/portifolio/static/media/joaoKirche.480b1a2135745dbc3e46.jpg",
     "static/media/joaoKircheMobile.jpg": "/portifolio/static/media/joaoKircheMobile.480b1a2135745dbc3e46.jpg",
@@ -53,11 +53,11 @@
     "static/media/html5.png": "/portifolio/static/media/html5.cfb2ba4a6b1c3de295bc.png",
     "static/media/leadership.png": "/portifolio/static/media/leadership.42d8afc4a776c8f5f26b.png",
     "static/media/javaScript.png": "/portifolio/static/media/javaScript.3dfb665e058d08c99f28.png",
-    "main.96cc122e.css.map": "/portifolio/static/css/main.96cc122e.css.map",
+    "main.44c85644.css.map": "/portifolio/static/css/main.44c85644.css.map",
     "main.e2212682.js.map": "/portifolio/static/js/main.e2212682.js.map"
   },
   "entrypoints": [
-    "static/css/main.96cc122e.css",
+    "static/css/main.44c85644.css",
     "static/js/main.e2212682.js"
   ]
 }
