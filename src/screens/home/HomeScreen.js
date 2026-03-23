@@ -16,7 +16,7 @@ export default function HomeScreen() {
             <h1>Desenvolvedor Web</h1>
             <h1>&lsaquo;Front-end&rsaquo;</h1>
             <br></br>
-            <h1 className="--home-especializando">&lsaquo;Iniciando na Programação&rsaquo;</h1>
+            <h1 className="--home-especializando"></h1>
             <br></br>
             <h2 className="--home-rubrica">J.R Kirche F.</h2>
         </div>

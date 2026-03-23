@@ -23,42 +23,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  line-height: 2rem;
+  line-height: 1rem;
 }
 
-.main-header--left > h1 {
+.main-header--left > h1:not(.--home-especializando) {
   position: relative;
-  overflow: hidden;
-  color: transparent;
   font-size: 2.2rem;
   font-weight: normal;
   z-index: 0;
   text-align: center;
   font-family: 'Press Start 2P', cursive;
-
-  background: linear-gradient(90deg, 
-  rgb(0, 191, 255), 
-  rgba(255, 255, 255, 0.05), 
-  rgb(0, 191, 255));
-
-  text-shadow: -4px 0px 2px rgba(0, 191, 255, 0.1);
-
-  background-size: 10000%;
-  background-position: 250% 0%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  animation: scroll-background 5s alternate-reverse infinite;
-  
-
-  /* background: linear-gradient(to right, 
-  rgb(255, 0, 157), 
-  rgb(162, 0, 255), 
-  rgb(68, 0, 255),
-  rgb(162, 0, 255), 
-  rgb(255, 0, 157));
-  -webkit-background-clip: text; */
+  color: rgb(0, 191, 255);
+  text-shadow: -4px 0px 2px rgba(0, 191, 255, 0.3), 0 0 10px rgba(0, 191, 255, 0.2);
+  margin-bottom: 1.5rem;
 }
 
 @keyframes scroll-background {
@@ -73,10 +50,8 @@
 .main-header--left > h1.--home-especializando {
   font-size: 1.5rem;
   font-weight: bold;
-  color: transparent;
+  color: rgb(0, 191, 255);
   min-width: max-content;
-  background-color: rgb(0, 191, 255);
-  -webkit-background-clip: text;
   text-shadow: -6px 0px 2px rgba(0, 191, 255, 0.1);
 }
 
@@ -180,9 +155,7 @@ background-size: 300%;
   }  
 
   .main-header--container > .main-header--left > h2.--home-rubrica {
-      font-size: 5.25rem;
       margin-bottom: 1rem;
-      margin-top: 1rem;
   }
 }
 
@@ -225,9 +198,8 @@ background-size: 300%;
   }
 
   .main-header--container > .main-header--left > h2.--home-rubrica {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
   }
 
   .main-header--left {

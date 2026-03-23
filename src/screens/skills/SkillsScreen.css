@@ -427,5 +427,6 @@ p[data-value] {
       max-width: none;
       margin: .2rem;
       margin-top: 3rem;
+      margin-bottom: 3rem;
   }
 }

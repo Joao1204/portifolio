@@ -344,9 +344,14 @@ background-color: #000;
       left: 0;
   }
 
-  button#btn-hamburguer > svg, button#nav-close-btn > svg {
+  button#btn-hamburguer > svg {
       cursor: pointer;
-      color: white;
+      color: rgb(255, 255, 255);
+  }
+
+  button#nav-close-btn > svg {
+    cursor: pointer;
+    color: black;
   }
 
   #main-projects--container, #main-certificate--container {

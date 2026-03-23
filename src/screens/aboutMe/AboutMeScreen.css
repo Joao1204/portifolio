@@ -49,6 +49,7 @@
 .main-sobre--shellContainer {
   box-shadow: 0 0px 10px 2px rgb(255, 255, 255);
   border-radius: 10px;
+  word-break: break-word;
 }
 
 /* #main-sobre--container div ul {

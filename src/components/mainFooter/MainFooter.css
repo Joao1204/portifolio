@@ -270,3 +270,11 @@ footer h3 {
       margin-top: .2rem;
   }
 }
+
+@media (max-width: 425px) {
+  
+  .footer-description > p {
+    font-size: .8rem;
+  }
+
+}

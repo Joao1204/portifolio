@@ -16,7 +16,7 @@
   --main-titleColor: #2f81f7 !important;
   --main-textColor: #d1d5db !important;
   --main-fontfamily-Press2PLight: Söhne Mono,Monaco,Andale Mono,Ubuntu Mono,monospace!important;
-  --main-bgColorLightGrey: transparent;
+  --main-bgColorLightGrey: black;
   --main-fontFamily-secondTitle: 'Genshin Impact Font Family';
 }
 
@@ -43,4 +43,9 @@ body {
   --tw-bg-opacity: 1;
   background-color: #000000;
 }
+
+/* html, body, #root {
+  position: relative;
+  z-index: 0;
+} */
 
